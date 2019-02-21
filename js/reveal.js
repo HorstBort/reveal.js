@@ -3134,6 +3134,9 @@
 					value.push( indexh + 1 );
 					if( isVerticalSlide() ) value.push( '/', indexv + 1 );
 					break;
+				case 'h':
+					value.push( indexh + 1 );
+					break;
 				default:
 					value.push( indexh + 1 );
 					if( isVerticalSlide() ) value.push( '.', indexv + 1 );
